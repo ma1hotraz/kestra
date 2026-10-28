@@ -368,6 +368,7 @@ public final class ExecutorTestHarness {
             executionStateStore,
             executionDelayStateStore,
             flowMetaStore,
+            flowService,
             taskOutputService,
             executionOutputService,
             asyncOperationService,
