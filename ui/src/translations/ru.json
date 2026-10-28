@@ -1154,6 +1154,8 @@
     "unlock trigger": {
       "success": "Trigger разблокирован"
     },
+    "trigger blocked": "Заблокировано политикой",
+    "trigger blocked check failed": "Не удалось проверить политики управления.",
     "trigger disabled": "Триггер отключен в источнике Flow",
     "trigger enable dialog": {
       "title": "Включить trigger",

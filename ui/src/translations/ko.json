@@ -1154,6 +1154,8 @@
     "unlock trigger": {
       "success": "Trigger가 잠금 해제되었습니다"
     },
+    "trigger blocked": "정책에 의해 차단됨",
+    "trigger blocked check failed": "거버넌스 정책을 확인할 수 없습니다.",
     "trigger disabled": "Flow 소스 내에서 Trigger가 비활성화되었습니다.",
     "trigger enable dialog": {
       "title": "trigger 활성화",

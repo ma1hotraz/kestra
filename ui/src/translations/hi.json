@@ -1154,6 +1154,8 @@
     "unlock trigger": {
       "success": "Trigger अनलॉक किया गया"
     },
+    "trigger blocked": "नीति द्वारा अवरुद्ध",
+    "trigger blocked check failed": "शासन नीतियों की जाँच नहीं की जा सकी।",
     "trigger disabled": "Flow स्रोत के भीतर Trigger अक्षम है",
     "trigger enable dialog": {
       "title": "trigger सक्षम करें",

@@ -1154,6 +1154,8 @@
     "unlock trigger": {
       "success": "触发器已解锁"
     },
+    "trigger blocked": "被策略阻止",
+    "trigger blocked check failed": "无法检查治理策略。",
     "trigger disabled": "在Flow源中触发器已禁用",
     "trigger enable dialog": {
       "title": "启用 trigger",

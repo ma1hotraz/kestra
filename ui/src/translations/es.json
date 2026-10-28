@@ -1154,6 +1154,8 @@
     "unlock trigger": {
       "success": "Trigger desbloqueado"
     },
+    "trigger blocked": "Bloqueado por política",
+    "trigger blocked check failed": "No se pudieron verificar las políticas de gobernanza.",
     "trigger disabled": "El trigger está deshabilitado dentro del Flow source",
     "trigger enable dialog": {
       "title": "Habilitar trigger",
