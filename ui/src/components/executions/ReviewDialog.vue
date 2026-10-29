@@ -60,6 +60,8 @@
 
     const visible = defineModel<boolean>({default: false})
 
+    const emit = defineEmits<{reviewed: [decision: ReviewDecision]}>()
+
     const {t} = useI18n()
     const executionsStore = useExecutionsStore()
     const toast = useToast()
@@ -139,6 +141,7 @@
                 await executionsStore.review(options)
                 visible.value = false
                 toast.success(t("approval.review done"))
+                emit("reviewed", decision)
             } finally {
                 submitting.value = false
             }
