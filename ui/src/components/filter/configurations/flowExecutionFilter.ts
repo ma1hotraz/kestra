@@ -104,9 +104,9 @@ export const useFlowExecutionFilter = (): ComputedRef<FilterConfiguration> => {
                     showComparatorSelection: true,
                 },
                 {
-                    key: "outputs",
-                    label: t("filter.outputs.label"),
-                    description: t("filter.outputs.description"),
+                    key: "searchableValues",
+                    label: t("filter.searchableValues.label"),
+                    description: t("filter.searchableValues.description"),
                     comparators: [
                         Comparators.EQUALS,
                         Comparators.NOT_EQUALS,

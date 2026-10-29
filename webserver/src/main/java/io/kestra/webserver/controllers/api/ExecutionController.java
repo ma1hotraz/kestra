@@ -368,7 +368,7 @@ public class ExecutionController {
         )
         @QueryFilterFormat(Resource.EXECUTION) List<QueryFilter> filters,
         @Parameter(description = "Maximum number of distinct values to return.") @QueryValue(defaultValue = "100") @Min(1) @Max(PageableUtils.MAX_PAGE_SIZE) int size) {
-        if (field == QueryFilter.Field.OUTPUTS || !QueryFilter.Resource.EXECUTION.supportedField().contains(field)) {
+        if (field == QueryFilter.Field.SEARCHABLE_VALUES || !QueryFilter.Resource.EXECUTION.supportedField().contains(field)) {
             throw new HttpStatusException(
                 HttpStatus.BAD_REQUEST,
                 "Field " + field + " is not supported for executions"

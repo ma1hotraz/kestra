@@ -11,7 +11,7 @@ import io.kestra.core.exceptions.InvalidQueryFiltersException;
 import io.kestra.core.models.QueryFilter;
 import io.kestra.core.models.QueryFilter.Field;
 import io.kestra.core.models.QueryFilter.Op;
-import io.kestra.core.searchable.SearchableOutputRepositoryInterface;
+import io.kestra.core.searchable.SearchableDataRepositoryInterface;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -23,11 +23,11 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 class ExecutionOutputFilterServiceTest {
-    private final SearchableOutputRepositoryInterface repository = mock(SearchableOutputRepositoryInterface.class);
+    private final SearchableDataRepositoryInterface repository = mock(SearchableDataRepositoryInterface.class);
     private final ExecutionOutputFilterService service = new ExecutionOutputFilterService(repository);
 
     private static QueryFilter outputs(Op operation, Object value) {
-        return QueryFilter.builder().field(Field.OUTPUTS).operation(operation).value(value).build();
+        return QueryFilter.builder().field(Field.SEARCHABLE_VALUES).operation(operation).value(value).build();
     }
 
     private static QueryFilter idIn(String... ids) {
