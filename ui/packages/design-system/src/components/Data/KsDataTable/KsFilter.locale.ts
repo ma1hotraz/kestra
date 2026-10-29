@@ -715,7 +715,7 @@ export default {
             },
             "searchableValues": {
                 "label": "Durchsuchbare Werte",
-                "description": "Nach den durchsuchbaren Inputs und Outputs der Execution filtern",
+                "description": "Filtern nach den durchsuchbaren Inputs und Outputs der Execution",
             },
             "taskRunId": {
                 "label": "Task-Run-ID",
@@ -1546,8 +1546,8 @@ export default {
                 "description": "Filtrer par identifiant d'opération asynchrone",
             },
             "searchableValues": {
-                "label": "Valeurs interrogeables",
-                "description": "Filtrer par les inputs et outputs recherchables de l'exécution",
+                "label": "Valeurs recherchables",
+                "description": "Filtrer par les inputs et outputs recherchables de l'Execution",
             },
             "taskRunId": {
                 "label": "ID d'exécution de Task",
@@ -2795,7 +2795,7 @@ export default {
             },
             "searchableValues": {
                 "label": "検索可能な値",
-                "description": "Executionの検索可能なinputとoutputでフィルタリング",
+                "description": "実行の検索可能なinputとoutputでフィルタリング",
             },
             "taskRunId": {
                 "label": "Task 実行 ID",
@@ -3626,7 +3626,7 @@ export default {
                 "description": "Filtruj według ID operacji asynchronicznej",
             },
             "searchableValues": {
-                "label": "Wartości z możliwością wyszukiwania",
+                "label": "Wartości do wyszukania",
                 "description": "Filtruj według przeszukiwalnych inputów i outputów egzekucji",
             },
             "taskRunId": {
@@ -4043,7 +4043,7 @@ export default {
             },
             "searchableValues": {
                 "label": "Valores pesquisáveis",
-                "description": "Filtrar pelos inputs e saídas pesquisáveis da execução",
+                "description": "Filtrar pelas entradas e saídas pesquisáveis da execução",
             },
             "taskRunId": {
                 "label": "ID da Execução da Task",
@@ -4874,8 +4874,8 @@ export default {
                 "description": "Фильтровать по ID асинхронной операции",
             },
             "searchableValues": {
-                "label": "Значения с возможностью поиска",
-                "description": "Фильтровать по поисковым input и output Execution",
+                "label": "Значения для поиска",
+                "description": "Фильтрация по доступным для поиска input'ам и output'ам execution",
             },
             "taskRunId": {
                 "label": "ID запуска Task",
